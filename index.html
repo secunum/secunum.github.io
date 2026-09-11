@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+		/>
+
+		<title>Secu Num - Niveau 1</title>
+
+		<link rel="stylesheet" href="dist/reset.css" />
+		<link rel="stylesheet" href="dist/reveal.css" />
+		<link rel="stylesheet" href="dist/theme/white.css" />
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="dist/plugin/highlight/monokai.css" />
+    <style>
+      /*CSS additionnel pour les fiches Outils*/
+    .fiche-header {
+      text-align: left;
+    }
+
+    .fiche-header .badge {
+      background: #3b82f6;
+      color: white;
+      padding: 4px 12px;
+      font-size: 0.5em;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .header-title-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-top: 8px;
+    }
+
+    .tool-logo {
+      height: 60px;
+      object-fit: contain;
+    }
+
+    .fiche-header h2 {
+      margin: 0 !important;
+      font-size: 1.5em !important;
+      line-height: 1 !important;
+    }
+
+    .fiche-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 30px;
+      align-items: start;
+      text-align: left;
+    }
+    .fiche-media {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .tool-screenshot {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .tool-link {
+      font-size: 0.55em;
+      color: #3b82f6 !important;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .tool-link:hover { text-decoration: underline; }
+
+    .tool-info-list {
+      font-size: 0.6em !important;
+      line-height: 1.6 !important;
+      margin: 0 0 25px 0 !important;
+      padding-left: 20px !important;
+    }
+
+    .tool-info-list li {
+      margin-bottom: 8px;
+    }
+
+    .gauge-group {
+      margin-bottom: 12px;
+    }
+
+    .gauge-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.5em;
+      color: #454547;
+      margin-bottom: 4px;
+    }
+
+    .gauge-text {
+      font-weight: 600;
+      color: #454547;
+    }
+
+    .gauge-bars {
+      display: flex;
+      gap: 4px;
+    }
+
+    .gauge-bars span {
+      flex: 1;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+
+    .gauge-group.level-3 .gauge-bars span:nth-child(-n+3) {
+      background: #21a425;
+    }
+
+    .gauge-group.level-2 .gauge-bars span:nth-child(-n+2) {
+      background: #9da421;
+    }
+
+    .gauge-group.level-1 .gauge-bars span:nth-child(1) {
+      background: #a42151;
+    }
+    </style>
+	</head>
+	<body>
+		<div class="reveal">
+  <div class="slides">
+
+    <section>
+      <h1>Atelier d'autodéfense numérique</h1>
+      <p class="small-text">Secu Num 1 :Reprendre le contrôle de sa vie numérique</p>
+    </section>
+
+    <section>
+      <h2>ÉLÉMENTS THÉORIQUES</h2>
+      <h3>Mise au point sur le vocabulaire</h3>
+
+      <div class="callout callout-todo">
+        <span class="callout-header">Suggestions / À faire</span>
+        <p>Faire des étiquettes avec le nom / définitions / exemples mélangés et laisser les gens remettre dans l'ordre.</p>
+      </div>
+
+      <ul class="small-text">
+        <li><strong>Système d'exploitation :</strong> </li>
+        <li><strong>Internet :</strong> </li>
+        <li><strong>Navigateur web :</strong> </li>
+        <li><strong>Moteur de recherche :</strong></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Mise au point sur le vocabulaire</h3>
+
+      <ul class="small-text">
+        <li><strong>Système d'exploitation :</strong> Logiciels gérant les ressources de l'ordinateur (ex: Windows, MacOS, Ubuntu / Android, iOS).</li>
+        <li><strong>Internet :</strong> Réseau informatique mondial public.</li>
+        <li><strong>Navigateur web :</strong> Logiciel pour consulter des sites (ex: Edge, Chrome, Firefox, Safari).</li>
+        <li><strong>Moteur de recherche :</strong> Service web de recherche (ex: Google, Bing, Startpage, Qwant, DuckDuckGo).</li>
+      </ul>
+       </section>
+
+        <section>
+      <h3>Exemple</h3>
+      <img src="./images/chemin.svg" alt="Chemin d'une requête web" />
+           </section>
+
+
+    <section>
+      <h2>La vie privée ? Kesako ?</h2>
+      
+      <ul class="xsmall-text">
+        <li><strong>Vie privée :</strong> </li>
+        <li><strong>Confidentialité :</strong> .</li>
+        <li><strong>Sécurité :</strong></li>
+        <li><strong>Anonymat :</strong> </li>
+        <li><strong>Pseudonymat :</strong></li>
+      </ul>
+    </section>
+
+        <section>
+       <h2>La vie privée ? Kesako ?</h2>
+     
+      <ul class="xsmall-text">
+        <li><strong>Vie privée :</strong> Sphère d'intimité à l'abri des regards. Préserver sa vie privée &ne; avoir des choses illégales à cacher (ex: fermer la porte des toilettes).</li>
+        <li><strong>Confidentialité :</strong> S'assurer que l'information est accessible uniquement aux personnes autorisées.</li>
+        <li><strong>Sécurité :</strong> Assurance de l'authenticité des interlocuteurs et de l'intégrité des échanges.</li>
+        <li><strong>Anonymat :</strong> Capacité d'agir sans identifiant permanent.</li>
+        <li><strong>Pseudonymat :</strong> Capacité d'agir avec un identifiant permanent non relié à votre identité réelle.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Modèle de menace</h2>
+      <ul class="small-text">
+        <li><strong>QUOI ?</strong> Que souhaitez-vous protéger ? </li>
+        <li><strong>DE QUI ?</strong> Qui peut mettre en danger cet élément ?</li>
+        <li><strong>COMMENT ?</strong> De quelle manière ? </li>
+        <li><strong>PROBABILITÉ ?</strong> Quelle chance que cela arrive ?</li>
+        <li><strong>CONSÉQUENCES ?</strong> Qu'avez-vous à perdre ?</li>
+        <li><strong>QUE FAIRE ?</strong> Quel compromis suis-je prêt·e à accepter ?</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Le capitalisme de surveillance</h2>
+      <p class="small-text">Des entreprises accumulent et croisent des données pour créer des profils.</p>
+      <p class="small-text"><em>Personne n'est "sans intérêt" :</em> Analyse Proton sur les enchères publicitaires Google (USA) :</p>
+      <ul class="small-text">
+        <li><strong>Moyenne :</strong> 1605 $ / an / utilisateur US</li>
+        <li><strong>Max :</strong> 17 929 $ (35-44 ans, cadre, PC)</li>
+        <li><strong>Min :</strong> 31 $ (14-24 ans, faible revenu, Android)</li>
+      </ul>
+      <p class="text-blue small-text">Pour la France, diviser approximativement par 2.</p>
+    </section>
+
+
+    <section>
+      <h2>ATELIER - DATA BROKERS</h2>
+      <p class="small-text">Data Brokers: Entreprises qui collectent, traitent et vendent des données personnelles.</p>
+      <p><strong>Objectif :</strong> Reconstituer le profil le plus complet possible de Bidule.</p>
+     
+    </section>
+
+     <section>
+      <h2>Groupe 1</h2>
+     <ul>
+      <li>Identifiant publicitaire : gecko_rebelle@proton.me = bernard.coucou@gmail.com = BBdu31</li>
+      <li>Confirmé par le user-agent</li>
+      <li>Localisation : quartier résidentiel : Lieu d'habitation et devant la mairie : Lieu de travail ?</li>
+      <li>Pas de lien avéré avec Bibibou ou Kiki</li>
+     </ul>
+    </section>
+
+         <section>
+      <h2>Groupe 2</h2>
+     <ul>
+      <li>Identifiant publicitaire : bernard_coquin@gmail.com = bernard.coucou@gmail.com</li>
+      <li>Nouveau pseudo : "Playmobil" sur le bon coin</li>
+      <li>De nombreuses connexions devant la mairie : Confirme le lieu de travail ou alors il adore aller sur la place du Capitole</li>
+      <li>Pas de lien avéré avec Bibibou ou Kiki</li>
+     </ul>
+    </section>
+         <section>
+      <h2>Groupe 3</h2>
+     <ul>
+      <li>Identifiant publicitaire : bernard.h@gmail.com = BBdu31</li>
+      <li>Compte Matermost mais on ne connait pas le pseudo...</li>
+      <li>De nombreuses connexions devant la mairie : Confirme le lieu de travail ou alors il adore aller sur la place du Capitole</li>
+      <li>Pas de lien avéré avec Bibibou ou Kiki</li>
+     </ul>
+    </section>
+
+    <section>
+      <h2>Apparté rapide : Osint</h2>
+     <ul>
+      <li>Organigramme de la mairie + adresse mail institutionnelle : Prénom et Nom de bernard H...</li>
+      <li>Compte Matermost sans pseudo : avec la date de première connexion, possible</li>
+      <li>Prénom/Nom + Lieu d'habitation = Adresse exacte (n° appartement)</li>
+      <li>Recherche automatique sur les réseaux avec pseudo : Loisirs / habitudes</li>
+      <li>Cherche des rencontres (Tinder) : Possibilité de le rencontrer par ce biais et d'obtenir un visage ou leboncoin</li>
+     </ul>
+    </section>
+
+        <section>
+      <h2>III.3.c. Pour aller plus loin</h2>
+
+     Notion de pivot importante : permet de relier plusieurs contextes d'utilisation / profils à d'autres profils : Abbordé en Secu num 2.
+    </section>
+
+    <section>
+      <h2>Exploitation des données</h2>
+      <ul class="small-text">
+        <li>Publicités ciblées.</li>
+        <li>Ajustement de tarifs par des assureurs / mutuelles.</li>
+        <li>Ciblage politique sur-mesure.</li>
+        <li>Surveillance étatique et changement de cadre légal futur.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>OUTILS PRATIQUES : SE PROTÉGER</h2>
+      
+    </section>
+
+     <section>
+      <h3>Navigation Web : Fingerprinting</h3>
+      <p class="small-text">Techniques de suivi identifiant un appareil de façon unique grâce à la combinaison de ses caractéristiques (User agent, IP, Canvas, polices, extensions, etc.).</p>
+      <div class="callout callout-definition">
+         <ul class="xsmall-text">
+          <li>Soit on blinde le navigateur (extensions, scripts bloqués) = profil très protecteur mais empreinte unique.
+        </li>
+          <li>Soit on cherche à se fondre dans la masse = moins unique mais tracking omniprésent.</li>
+        </ul>
+            </div>
+    </section>
+
+    <section>
+      <h2>Navigateurs Web</h2>
+      <div class="callout callout-todo">
+        <ul class="xsmall-text">
+          <li>Firefox sur Mobile and PC</li>
+          <li>Ajout d'extentions de blocage de publicité</li>
+          <li>Activer la protection renforcée contre le pistage</li>
+        </ul>
+      </div>
+    </section>
+<section>
+<section>
+  <div class="fiche-header">
+    <span class="badge">Fiche Outil</span>
+    <div class="header-title-wrapper">
+      <img src="./images/firefox.svg" alt="Logo Firefox" class="tool-logo">
+      <h2>Navigateur Firefox</h2>
+    </div>
+  </div>
+  <div class="fiche-grid">
+    <div class="fiche-media">
+      <img src="./images/firefox-screen.png" alt="Capture d'écran" class="tool-screenshot">
+      Ressources
+      <a href="https://www.firefox.com" target="_blank" rel="noopener noreferrer" class="tool-link">
+        🌐 www.firefox.com
+      </a>
+    </div>
+
+    <div class="fiche-content">
+      <ul class="tool-info-list">
+        <li><strong>Catégorie :</strong> Navigateur Web / Protection de la vie privée</li>
+        <li><strong>Points forts :</strong> Supporte les vrais bloqueurs de publicité, personnalisable, bloqueur de pisteurs intégré.</li>
+        <li><strong>Usage conseillé :</strong> Au quotidien</li>
+      </ul>
+      <div class="tool-gauges">
+        <div class="gauge-group level-3">
+          <div class="gauge-label">
+            <span>Facilité d'installation</span>
+            <span class="gauge-text">Élevée</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="gauge-group level-3">
+          <div class="gauge-label">
+            <span>Facilité d'adoption</span>
+            <span class="gauge-text">Moyenne</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section data-background-image="./images/firefox-screen.png" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+  </section>
+</section>
+
+<section>
+<section>
+  <div class="fiche-header">
+    <span class="badge">Fiche Outil</span>
+    <div class="header-title-wrapper">
+      <img src="./images/ublock.svg" alt="Logo Ublock" class="tool-logo">
+      <h2>Ublock Origin</h2>
+    </div>
+  </div>
+  <div class="fiche-grid">
+    <div class="fiche-media">
+      <img src="./images/ublock-screen.png" alt="Capture d'écran" class="tool-screenshot">
+      Ressources
+      <a href="https://ublockorigin.com/" target="_blank" rel="noopener noreferrer" class="tool-link">
+        🌐 www.firefox.com
+      </a>
+      <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/" target="_blank" rel="noopener noreferrer" class="tool-link">
+        🌐 Firefox Addons
+      </a>
+    </div>
+
+    <div class="fiche-content">
+      <ul class="tool-info-list">
+        <li><strong>Catégorie :</strong> Bloqueur de Publicité / Protection de la vie privée</li>
+        <li><strong>Points forts :</strong> Le seul vrai bloqueur de publicité, fonctionne sur Youtube.</li>
+        <li><strong>Usage conseillé :</strong> Au quotidien</li>
+      </ul>
+      <div class="tool-gauges">
+        <div class="gauge-group level-3">
+          <div class="gauge-label">
+            <span>Facilité d'installation</span>
+            <span class="gauge-text">Élevée</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="gauge-group level-3">
+          <div class="gauge-label">
+            <span>Facilité d'adoption</span>
+            <span class="gauge-text">Moyenne</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section data-background-image="./images/ublock-screen.png" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+  </section>
+</section>
+
+    <section>
+      <h2>Moteurs de recherche</h2>
+      <p class="small-text"><strong>Problème :</strong> Suivi exhaustif des requêtes et revente aux tiers.</p>
+      <p><strong>Solution :</strong> Changer de moteur de recherche par défaut.</p>
+      <ul class="small-text">
+        <li>DuckDuckGo</li>
+        <li>Startpage</li>
+        <li>Qwant / Ecosia</li>
+      </ul>
+    </section>
+
+        <section data-background-color="red">
+      <h2>Navigateurs Web</h2>
+      TODO : VIDEO où l'on montre concrètement les 2 dernières diapositives. Mobile + PC
+    </section>
+
+  
+    <section>
+      <h2>Le VPN</h2>
+      <p class="small-text">Tunnel sécurisé vers un serveur intermédiaire. Masque le trafic à votre FAI, mais déplace la confiance vers le fournisseur VPN.</p>
+      <ul class="small-text">
+        <li><strong>Avantages :</strong> Masque l'IP au site final, contourne certains blocages simples.</li>
+        <li><strong>Limites :</strong> Un VPN <u>ne vous rend pas anonyme</u> et n'empêche pas le fingerprinting.</li>
+      </ul>
+    </section>
+
+
+            <section data-background-image="./images/reseau_https.svg" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+    </section>
+                <section data-background-image="./images/reseau_https_vpn.svg" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+    </section>
+
+    <section>
+      <h2>Comptes en ligne - Emails</h2>
+      <p class="small-text">L'email transite en clair sur le réseau. L'utiliser partout crée un identifiant unique universel.</p>
+      <div class="callout callout-todo">
+        <span class="callout-header">À faire</span>
+        <ul class="xsmall-text">
+          <li><strong>Créer plusieurs comptes emails</strong> pour différents usages (personnel, professionnel, etc.).</li>
+          <li><strong>Alias email :</strong> Utiliser des adresses jetables/dérivées (Firefox Relay, Simplelogin, SpamGourmet).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+<section>
+  <div class="fiche-header">
+    <span class="badge">Fiche Outil</span>
+    <div class="header-title-wrapper">
+      <img src="./images/relay.svg" alt="Logo Ublock" class="tool-logo">
+      <h2>Firefox Relay</h2>
+    </div>
+  </div>
+  <div class="fiche-grid">
+    <div class="fiche-media">
+      <img src="./images/relay.png" alt="Capture d'écran" class="tool-screenshot">
+      Ressources
+      <a href="https://relay.firefox.com" target="_blank" rel="noopener noreferrer" class="tool-link">
+        🌐 relay.firefox.com
+      </a>
+    </div>
+
+    <div class="fiche-content">
+      <ul class="tool-info-list">
+        <li><strong>Catégorie :</strong> Service d'alias</li>
+        <li><strong>Points forts :</strong> Intégré à Firefox, jolie UI</li>
+        <li><strong>Usage conseillé :</strong> Pour commencer, au quotidien</li>
+        <li><strong>Pour les plus deter :</strong> SpamGourmet</li>
+      </ul>
+      <div class="tool-gauges">
+        <div class="gauge-group level-2">
+          <div class="gauge-label">
+            <span>Facilité d'installation</span>
+            <span class="gauge-text">Moyenne</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="gauge-group level-2">
+          <div class="gauge-label">
+            <span>Facilité d'adoption</span>
+            <span class="gauge-text">Moyenne</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section data-background-image="./images/relay.png" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+  </section>
+</section>
+
+    <section>
+      <h2>Comptes en ligne - Mots de passe</h2>
+      <div class="callout callout-todo">
+        <ul class="xsmall-text">
+          <li><strong>Utiliser un gestionnaire de mots de passe</strong> pour générer et stocker des mots de passe complexes et uniques.</li>
+          <li><strong>Mot de passe aléatoire ou méthode Diceware</strong> pour créer des mots de passe plus sécurisés.</li>
+          <li><strong>Mot de passe du type C0urg$tt$.</strong> C'est NUL</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section>
+<section>
+  <div class="fiche-header">
+    <span class="badge">Fiche Outil</span>
+    <div class="header-title-wrapper">
+      <img src="./images/Bitwarden_logo.svg" alt="Logo Ublock" class="tool-logo">
+      <h2>Bitwarden / Vaultwarden</h2>
+    </div>
+  </div>
+  <div class="fiche-grid">
+    <div class="fiche-media">
+      <img src="./images/bitwarden.png" alt="Capture d'écran" class="tool-screenshot">
+      Ressources
+      <a href="https://bitwarden.com/" target="_blank" rel="noopener noreferrer" class="tool-link">
+        🌐 bitwarden.com/
+      </a>
+    </div>
+
+    <div class="fiche-content">
+      <ul class="tool-info-list">
+        <li><strong>Catégorie :</strong> Gestionnaire de mot de passe avec synchronisation</li>
+        <li><strong>Points forts :</strong> Open-Spurce, E2EE, de confiance</li>
+        <li><strong>Usage conseillé :</strong> Au quotidien</li>
+        <li><strong>Note :</strong> Possibilité d'utiliser d'autres hébergeur Bitwarden</li>
+      </ul>
+      <div class="tool-gauges">
+        <div class="gauge-group level-3">
+          <div class="gauge-label">
+            <span>Facilité d'installation</span>
+            <span class="gauge-text">Élevée</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="gauge-group level-2">
+          <div class="gauge-label">
+            <span>Facilité d'adoption</span>
+            <span class="gauge-text">Moyenne</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section data-background-image="./images/bitwarden.png" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+  </section>
+</section>
+
+
+    <section>
+      <h2>Réseaux Sociaux Numériques</h2>
+      <ul class="small-text">
+        <li>Collecte massive de données croisées (ex: Meta = Facebook + Instagram + WhatsApp).</li>
+        <li>Depuis quelques temps : volonté d'obtenir des identités complètes + Scan du visage pour "vérification d'âge". (Reddit + Discord + Youtube)</li>
+      </ul>
+      <div class="callout callout-todo">
+        <ul class="xsmall-text">
+          <li>Éviter les photos de profil réelles publiques.</li>
+          <li>Boycotter les réseaux avec ces pratiques</li>
+          <li> Le mieux : tout supprimer...</li>
+        </ul>
+      </div>
+    </section>
+
+        <section>
+      <h2>Le réseau de téléphonie mobile</h2>
+    </section>
+            <section data-background-image="./images/reseau_tel.svg" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+    </section>
+
+    <section>
+      <h2>Géolocalisation & OpenStreetMap</h2>
+      <p class="small-text">Problèmes des cartes GAFAM : Surveillance continue, ciblage publicitaire, dépendance au cloud.</p>
+      <p class="small-text"><strong>Alternative : OpenStreetMap (OSM)</strong></p>
+      <ul class="small-text">
+        <li>Bien commun collaboratif, libre et gratuit.</li>
+        <li>Aucune publicité, aucun traçage.</li>
+        <li>Données très précises (points d'eau, sentiers, bancs...).</li>
+      </ul>
+    </section>
+    <section data-background-image="./images/maps.svg" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+    </section>
+
+    <section>
+      <h2>Applications Cartes recommandées</h2>
+      <table class="alt-table">
+        <tr>
+          <th>Application</th>
+          <th>Profil</th>
+          <th>Points forts</th>
+        </tr>
+        <tr>
+          <td><strong>CoMaps</strong></td>
+          <td>Débutant</td>
+          <td>Interface épurée, idéale pour remplacer Google Maps au quotidien.</td>
+        </tr>
+        <tr>
+          <td><strong>OsmAnd</strong></td>
+          <td>Avancé / Randonnée</td>
+          <td>Riche en fonctionnalités (enregistrements GPX, courbes de niveau).</td>
+        </tr>
+      </table>
+    </section>
+
+
+
+
+    <section>
+<section>
+  <div class="fiche-header">
+    <span class="badge">Fiche Outil</span>
+    <div class="header-title-wrapper">
+      <img src="./images/comaps.jpg" alt="Logo comaps" class="tool-logo">
+      <h2>CoMaps</h2>
+    </div>
+  </div>
+  <div class="fiche-grid">
+    <div class="fiche-media">
+      <img src="./images/comaps-screen.jpg" alt="Capture d'écran" class="tool-screenshot">
+      Ressources
+      <a href="https://www.comaps.app/" target="_blank" rel="noopener noreferrer" class="tool-link">
+        🌐 www.comaps.app
+      </a>
+    </div>
+
+    <div class="fiche-content">
+      <ul class="tool-info-list">
+        <li><strong>Catégorie :</strong> Application de navigation</li>
+        <li><strong>Points forts :</strong> Open-Spurce, Simple</li>
+        <li><strong>Usage conseillé :</strong> Au quotidien</li>
+        <li><strong>Attention :</strong> Recherche exacte seulement</li>
+      </ul>
+      <div class="tool-gauges">
+        <div class="gauge-group level-3">
+          <div class="gauge-label">
+            <span>Facilité d'installation</span>
+            <span class="gauge-text">Élevée</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="gauge-group level-2">
+          <div class="gauge-label">
+            <span>Facilité d'adoption</span>
+            <span class="gauge-text">Moyenne</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section data-background-image="./images/comaps-screen.jpg" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+  </section>
+</section>
+
+<section>
+<section>
+  <div class="fiche-header">
+    <span class="badge">Fiche Outil</span>
+    <div class="header-title-wrapper">
+      <img src="./images/osmand.svg" alt="Logo comaps" class="tool-logo">
+      <h2>OSMAnd</h2>
+    </div>
+  </div>
+  <div class="fiche-grid">
+    <div class="fiche-media">
+      <img src="./images/osmand-screen.jpg" alt="Capture d'écran" class="tool-screenshot">
+      Ressources
+      <a href="https://osmand.net" target="_blank" rel="noopener noreferrer" class="tool-link">
+        🌐 osmand.net
+      </a>
+    </div>
+
+    <div class="fiche-content">
+      <ul class="tool-info-list">
+        <li><strong>Catégorie :</strong> Application de navigation</li>
+        <li><strong>Points forts :</strong> Open-Spurce, Complète</li>
+        <li><strong>Usage :</strong> Au quotidien, impossible de s'en passer une fois qu'on l'a prise en main </li>
+        <li><strong>Attention :</strong> Télécharger depuis FDroid pour avoir la version payante gratuitement. </li>
+      </ul>
+      <div class="tool-gauges">
+        <div class="gauge-group level-3">
+          <div class="gauge-label">
+            <span>Facilité d'installation</span>
+            <span class="gauge-text">Élevée</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="gauge-group level-1">
+          <div class="gauge-label">
+            <span>Facilité d'adoption</span>
+            <span class="gauge-text">Faut s'accrocher au début</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section data-background-image="./images/osmand-screen.jpg" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+  </section>
+</section>
+
+
+    <section>
+      <h2>Communications </h2>
+    </section>
+
+
+        <section>
+      <h2>Communications : </h2>
+      <h3>Messageries chiffrées (E2EE)</h3>
+      <p class="xsmall-text">Les SMS et appels classiques transitent en clair sur le réseau mobile, dont on vient de parler.</p>
+      <div class="callout callout-todo" style="margin-top: 5px; margin-bottom: 10px;">
+        <p class="xsmall-text">Privilégier <strong>Signal</strong>.<br>
+        <em>Attention :</em> WhatsApp chiffre les contenus mais collectent énormément de <strong>métadonnées</strong> !</p>
+      </div>
+    </section>
+
+        <section>
+<section>
+  <div class="fiche-header">
+    <span class="badge">Fiche Outil</span>
+    <div class="header-title-wrapper">
+      <img src="./images/signal.svg" alt="Logo Ublock" class="tool-logo">
+      <h2>Signal</h2>
+    </div>
+  </div>
+  <div class="fiche-grid">
+    <div class="fiche-media">
+      <img src="./images/signal_screen.png" alt="Capture d'écran" class="tool-screenshot">
+      Ressources
+      <a href="https://signal.org" target="_blank" rel="noopener noreferrer" class="tool-link">
+        🌐 signal.org
+      </a>
+    </div>
+
+    <div class="fiche-content">
+      <ul class="tool-info-list">
+        <li><strong>Catégorie :</strong> Messagerie instantanée</li>
+        <li><strong>Points forts :</strong> E2EE, respect de la vie privée</li>
+        <li><strong>Usage conseillé :</strong> Au quotidien, surtout militant</li>
+        <li><strong>Pour les plus deter :</strong> Convertir votre famille</li>
+      </ul>
+      <div class="tool-gauges">
+        <div class="gauge-group level-3">
+          <div class="gauge-label">
+            <span>Facilité d'installation</span>
+            <span class="gauge-text">Facile</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="gauge-group level-1">
+          <div class="gauge-label">
+            <span>Facilité d'adoption</span>
+            <span class="gauge-text">Hors milieu militant, extreme</span>
+          </div>
+          <div class="gauge-bars">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section data-background-image="./images/signal_screen.png" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+  </section>
+</section>
+
+     <section>
+      <h2>Permissions des applications</h2>
+      <p class="small-text">Méfiez-vous des applications demandant des accès injustifiés (ex: contacts ou GPS pour un jeu mobile).</p>
+      
+      <div class="callout callout-todo">
+        <ul class="xsmall-text">
+          <li><strong>Exodus Privacy :</strong> Analysez votre smartphone pour découvrir les pisteurs (trackers) et permissions cachés dans vos applications.</li>
+          <li><strong>Aurora Store :</strong> Alternative au Google Play Store permettant de voir les pisteurs <em>avant</em> d'installer une application.</li>
+          <li><strong>F-Droid :</strong> Magasin d'applications 100% open-source et sans trackers (ex: la suite d'applications <em>Fossify</em>).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section data-background-image="./images/exodus.svg" data-background-size="contain" data-background-repeat="no-repeat" data-background-position="center">
+    </section>
+    <section>
+      <h2>Conclusion ?</h2>
+      On évite d'installer une application quand on peut faire la même chose avec un navigateur web.
+    </section>
+
+    <section>
+      <table class="alt-table">
+        <tr>
+          <th>Activité</th>
+          <th>Classique</th>
+          <th>Alternatives conseillées</th>
+        </tr>
+        <tr>
+          <td>Messagerie</td>
+          <td>WhatsApp, Messenger</td>
+          <td><strong>Signal</strong>, DeltaChat</td>
+        </tr>
+        <tr>
+          <td>E-mails</td>
+          <td>Gmail, Outlook</td>
+          <td><strong>Proton Mail</strong>, Tutanota, Infomaniak</td>
+        </tr>
+        <tr>
+          <td>Cloud</td>
+          <td>Drive, iCloud</td>
+          <td><strong>Proton Drive</strong>, kDrive</td>
+        </tr>
+        <tr>
+          <td>GPS</td>
+          <td>Google Maps</td>
+          <td><strong>CoMaps</strong>, OsmAnd</td>
+        </tr>
+        <tr>
+          <td>Bureautique</td>
+          <td>MS Office, Google Docs</td>
+          <td><strong>LibreOffice</strong>, CryptPad</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>RÉSUMÉ - Les Priorités </h2>
+      <h3>1. Sécuriser les accès critiques</h3>
+      <ul class="small-text">
+        <li>Installer un gestionnaire de mots de passe.</li>
+        <li>Activer la double authentification (2FA TOTP).</li>
+      </ul>
+      
+    </section>
+     <section>
+      <h2>RÉSUMÉ - Les Priorités </h2>
+      
+      <h3>2. Blinder la navigation quotidienne</h3>
+      <ul class="small-text">
+        <li>Utiliser <strong>Firefox</strong> (sur PC et Mobile).</li>
+        <li>Installer <strong>uBlock Origin</strong>.</li>
+        <li>Moteur de recherche par défaut : DuckDuckGo ou Startpage.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>RÉSUMÉ - Les Priorités</h2>
+      <h3>3. Migrer vers un écosystème sain</h3>
+      <ul class="small-text">
+        <li>Passer sur <strong>Signal</strong>.</li>
+        <li>Créer une adresse email éthique (Proton, Infomaniak, etc.).</li>
+        <li>Utiliser CryptPad / LibreOffice.</li>
+      </ul>
+      
+    </section>
+    <section>
+      <h2>RÉSUMÉ - Les Priorités</h2>
+      
+      <h3>4. Chiffrer & Masquer</h3>
+      <ul>
+        <li>utiliser un VPN si vous voulez.</li>
+        <li>Utiliser des alias de courriels (Firefox Relay).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>CONCLUSION</h2>
+      <blockquote>
+        "Loi de Pareto : Agir sur 20% des causes permet de résoudre 80% des problèmes."
+      </blockquote>
+      <ul>
+        <li>Pas besoin de devenir paranoïaque.</li>
+        <li>Les habitudes se changent petit à petit pour être durables.</li>
+        <li>Comprendre les technologies est la meilleure façon de ne plus se faire manipuler !</li>
+      </ul>
+    </section>
+
+  </div>
+</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="dist/plugin/notes.js"></script>
+		<script src="dist/plugin/markdown.js"></script>
+		<script src="dist/plugin/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			});
+		</script>
+	</body>
+</html>
