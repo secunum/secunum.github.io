@@ -2,13 +2,11 @@
 
 #let ressources-box(body) = block(
   stroke: 1pt + aqua,
-  radius: 6pt,
   inset: 0.8em,
   [
     #box(
       fill: aqua,
       inset: 0.5em,
-      radius: 4pt,
       [
         *Ressources*
       ]
@@ -20,13 +18,11 @@
 
 #let definition-box(body) = block(
   stroke: 1pt + aqua,
-  radius: 6pt,
   inset: 0.8em,
   [
     #box(
       fill: aqua,
       inset: 0.5em,
-      radius: 4pt,
       [
         *Point Définition*
       ]
@@ -38,13 +34,11 @@
 
 #let todo-box(body) = block(
   stroke: 1pt + orange,
-  radius: 6pt,
   inset: 0.8em,
   [
     #box(
       fill: orange,
       inset: 0.5em,
-      radius: 4pt,
       [
         *Suggestions / À faire*
       ]
@@ -56,13 +50,11 @@
 
 #let pt-box(body) = block(
   stroke: 1pt + gray,
-  radius: 6pt,
   inset: 0.8em,
   [
     #box(
       fill: luma(240),
       inset: 0.5em,
-      radius: 4pt,
       [
         *Point d'info (pas utile de le dire sauf questions) *
       ]
@@ -73,11 +65,12 @@
 )
 
 
-
+#set page(numbering: "1 / 1")
 Atelier d\'autodéfense numérique
-
-
 = MÉTÉO / GESTES DE FACILITATION
+- Lever un doigt, deux, etc
+- Point technique
+- d'accord  / pas d'accord
 = INTRO
 == Contenu de la formation : ce qu\'on fait et ce qu\'on fait pas, à qui ça s\'adresse
 
@@ -378,7 +371,7 @@ corrélations peuvent devenir des lois.
 - Comment protéger sa vie privée sur son smartphone :
   https:\/\/youtu.be/yFDaty4b0fo
 ]
-====  Exploiter les données~:
+====  Exploiter les données :
 
 Après tout ça, des entreprises peuvent disposer d'une énorme base de
 données sur vos goûts, préférences, comportements, habitudes, etc. et
@@ -397,9 +390,12 @@ entreprises peuvent être intéressées par ces informations~:
   avoir une liste des personnes enceintes ET votant pour le parti Violet
   qui soutient le droit à l'avortement.
 
-Remarque~: ce qui est légal aujourd'hui peut être interdit dans 6 mois
+Remarque : ce qui est légal aujourd'hui peut être interdit dans 6 mois
 ou 1 an et Internet n'oublie jamais...
 
+Exemple : le scandale Cambridge analytica
+- En 2015, The Guradian a révélé qu'un politique américain Ted Cruz a utilisé les données de Cambridge Analytica, pour influencer des électeurs-clé (lesquels ignoraient, comme tous ceux qui ont fini par être spoliés de leurs données personnelles, que des sociétés exploitaient ces informations).
+- En 2016, le comité de campagne de Donald Trump semble avoir modifié les intentions de vote (ou provoqué l'abstention) d'un nombre suffisamment important d'électeurs-clé pour conquérir le pouvoir.  En analysant les personnalités des profils collectés au travers de leurs interactions sur la plateforme, l'équipe de Cambridge Analytica a pu discerner les partisans de Trump ainsi que les électeurs indécis#footnote[Des annonces personnalisées leur étaient alors envoyées : les partisans de Trump voyaient défiler sur leur fil d’actualité des images le représentant de manière triomphante, tandis que les indécis étaient exposés à des contenus mettant en scène ses fervents supporteurs, accompagnés de graphiques négatifs (+ fausses accusations de corruptions) à l’encontre de son opposante, Hillary Clinton.].
 #ressources-box[
 - Google, l'espion le plus con du monde :
   #link("https://grisebouille.net/google-lespion-le-plus-con-du-monde")
@@ -424,7 +420,7 @@ exploiter des informations accessibles au public. Ces données
 proviennent de sources ouvertes variées : sites web, réseaux sociaux,
 bases de données ouvertes, documents officiels, images satellites et
 bien plus encore.~» (#link("https://osintfr.com/osint/")).
-
+#pt-box[
 ADINT (_Advertsing Intelligence) :_ «~Au cœur du système
 publicitaire numérique, un marché prospère se nourrit de nos données
 personnelles, alimentant un nouveau type de renseignement : l'ADINT
@@ -460,7 +456,7 @@ Bernard transmet des informations d'apparence anodines à l'attaquant,
 via la plateforme publicitaire, qui sont ensuite analysées et agrégées
 pour créer son profil numérique complet : habitudes de navigation,
 applications utilisées, centres d'intérêt, déplacements…~»
-
+]
 =  Outils pratiques~: se protéger
 ==  Navigation web
 === Fingerprinting
@@ -518,6 +514,10 @@ Options de confidentialité :
 - #link("https://addons.mozilla.org/fr/firefox/addon/multi-account-containers/")
 (à ne pas confondre avec l'addon dédié à FB)
 ]
+#pt-box[
+  - Pourquoi Firefox et pas chrome ou dérivés (Vivaldi, Bing, Brave) : ne permettent pas un blocage efficace des trackers et publicité.
+  - Pourquoi pas Brave : malgré leur marketing agressif sur la vie privée, ils ont tenté à leur début d'injecter eux-meme des publicité dites "privacy friendly" dans les pages. En 2020, ils injectaient des éléments dans les liens pour les utilisateurs de cryptomonnaie. De plus, le fondateur est anti LGBT. Enfin, en 2023, ils voulaient vendre les données de recherche des utilisateurs à des compagnies IA. Bref, ils ne sont pas dignes de confiance.
+]
 === Moteurs de recherche
 Le principal problème : suivi des requêtes et partage avec des tiers.
 
@@ -525,6 +525,8 @@ Le principal problème : suivi des requêtes et partage avec des tiers.
 Bing).]
 
 Suggestions~: DuckDuckGo~; Startpage.
+
+
 
 == VPN
 Définition de VPN (_Virtual Private Network)~:_
@@ -555,7 +557,7 @@ moins de data. C'est pas une solution magique parce :
   faut avoir confiance).
 
 ATTENTION~: les VPN ne garantissent pas l'anonymat~! Pour augmenter
-votre anonymat, il faut se tourner vers le navigateur Tor.
+votre anonymat, il faut se tourner vers le navigateur Tor. On y reviendra en secu num 2.
 
 #ressources-box[
 - The DARK side of VPNs (#link("https://youtu.be/8MHBMdTBlok") )
@@ -745,7 +747,7 @@ https:\/\/www.youtube.com/watch?v=6Jv0EzXdQbk&t=189s
 Les outils fermés des GAFAM posent trois problèmes :
 
 - *La surveillance continue :* La position est partagée en temps réel, même lorsque l'application est en arrière-plan, créant un historique exhaustif de vos trajets, de vos lieux de travail, de vos loisirs.
-- *Le ciblage publicitaire géolocalisé :* Les applications des GAFAM orientent subtilement vos choix économiques en mettant en avant les commerces qui paient pour être visibles, faussant ainsi votre perception de l'espace public. Google est avant tout un produit publictaire pour Google, à destination des commerces.
+- *Le ciblage publicitaire géolocalisé :* Les applications des GAFAM orientent subtilement vos choix économiques en mettant en avant les commerces qui paient pour être visibles, faussant ainsi votre perception de l'espace public. Maps est avant tout un produit publictaire pour Google, à destination des commerces.
 - *La dépendance réseau :* Ces applications fonctionnent principalement "dans le cloud". Sans connexion internet (zone blanche, étranger), leurs fonctionnalités sont fortement dégradées ou totalement indisponibles.
 #pt-box[
 La solution réside dans l'utilisation d'#strong[OpenStreetMap (OSM)]. Souvent décrit comme le _« Wikipédia de la carte »_, OSM est un projet mondial de cartographie collaborative, libre et gratuite.
@@ -847,9 +849,7 @@ Par exemple, si j'installe un jeu et que l'accès au contact est demandé, vous 
 
 == Alternatives pour sortir des GAFAM
 
-
 Pour chaque activité de tous les jours, il existe des outils plus respectueux de la vie privée. Le but n'est pas de tout changer du jour au lendemain, mais de remplacer ses outils petit à petit, à son rythme.
-
 
 On ne veut pas sortir d'un modèle centralisé pour aller vers un autre modèle centralisé. le but est juste de faire découvrir des alternatives. À vous de choisir la votre et celle qui vous convient le mieux. Les choix faits ici sont arbitraires et correspondent aux goûts des formateurices.
 
@@ -878,7 +878,7 @@ On ne veut pas sortir d'un modèle centralisé pour aller vers un autre modèle 
     
     [**Bureautique**], 
     [Microsoft Office, Google Docs], 
-    [*LibreOffice*, *CryptPad* (collaboratif en ligne, chiffré de bout en bout), *OnlyOffice sur Nextcloud*, *Proton Drive*, *kDrive* ]
+    [*LibreOffice*, *OnlyOffice sur Nextcloud*, *Proton Drive*, *kDrive* ]
   )]
   , kind: table,
   caption: [Tableau comparatif des alternatives]
@@ -937,9 +937,20 @@ Une tentative de résumé avec les choses à retenir classées par priorité.
 Il n'est jamais trop tard pour commencer, les gens changent, les données
 périment. \
 VPN + navigateur-moteur de recherche privacy friendly + email privacy
-friendly + signal =\> vous avez fait la majorité du boulot (loi de
+friendly + signal $=>$ vous avez fait la majorité du boulot (loi de
 Pareto~: agir sur 20~% de causes permet de résoudre 80~% du problème).
-Pour éviter de se faire manipuler =\> comprendre comment ça fonctionne.
+Pour éviter de se faire manipuler $=>$ comprendre comment ça fonctionne.
 Il vaut mieux changer petit à petit ses habitudes mais les garder plutôt
 que tout changer d'un coup, tenir une semaine et revenir à la case
 départ~!
+= Annexes
+== Tableau des modifcations
+#table(
+  columns: (1fr, 3fr),
+  align: (left, left),
+  stroke: 0.5pt + luma(150),
+  
+  [*Date*], [*Opérations*],
+  [01/09/2026], [Création du document],
+  [26/10/2026], [Ajout détails sur Cambrdige Analytica + Détails sur choix de Firefox + et pas Brave + Suppression de Cryptpad en alternative + Placement en PT Box de l'ADINT + Numérotation des pages],
+)
