@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "URW Gothic";
+  src: url("URWGothic-Book.woff2") format("woff2"),
+       url("URWGothic-Book.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Gothic";
+  src: url("URWGothic-BookOblique.woff2") format("woff2"),
+       url("URWGothic-BookOblique.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "URW Gothic";
+  src: url("URWGothic-Demi.woff2") format("woff2"),
+       url("URWGothic-Demi.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "URW Gothic";
+  src: url("URWGothic-DemiOblique.woff2") format("woff2"),
+       url("URWGothic-DemiOblique.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
