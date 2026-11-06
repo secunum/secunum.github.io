@@ -286,31 +286,8 @@ Ainsi,
 - min : 31 dollars (14-24 ans, état de l'Arkansas, Android, père, faible niveau de vie)
 
 Pour avoir des chiffres pour la France, on peut en première approximation diviser par 2 (le CPM d'un français est environ 2 fois moins élevé qu'un américain)
-=== ATELIER -- DATA BROKERS
 
-On forme des groupes de 2-3 personnes. Chaque groupe a un tableau de
-données. L'objectif est d'établir un profil le plus complet possible de
-Bernard. Ça va se faire en 2 étapes~:
-
-Étape 1~: chaque groupe extrait le plus d'infos possible sur Bernard
-grâce à son tableau.
-
-Étape 2~: les groupes s'échangent leurs informations afin d'avoir un
-profil le plus complet possible.
-
-=== Debrief
-De la même manière, un journaliste a réussi à retrouver l'adresse
-d'agents du renseignement français et du GIGN.
-
-#ressources-box[
-  - A ce sujet, video d'Underscore\_ https://www.youtube.com/watch?v=UZjPHnN482M
-  ]
-
-Les courtiers en données font la même chose avec des millions de
-personnes avec les données qu'on donne aux applications et sites web
-tous les jours. Voici les étapes:
-
-====  Collecter des données:
+===  Collecter des données:
 
 Des données (et surtout des
 metadonnées) sont constamment collectées de toutes part (réseaux
@@ -330,7 +307,7 @@ briques externes de l'application qui facilitent son développement ou
 son utilisation (programme qui gère la publicité, programme qui
 enregistre les stats d'utilisation, etc.~: SDK).
 
-====  Traiter les données~:
+===  Traiter les données~:
 
 Vos données d'utilisation d'une application précise un jour précis n'a
 pas de valeur. Mais croisées avec les données issues de toutes vos
@@ -371,7 +348,7 @@ corrélations peuvent devenir des lois.
 - Comment protéger sa vie privée sur son smartphone :
   https:\/\/youtu.be/yFDaty4b0fo
 ]
-====  Exploiter les données :
+===  Exploiter les données :
 
 Après tout ça, des entreprises peuvent disposer d'une énorme base de
 données sur vos goûts, préférences, comportements, habitudes, etc. et
@@ -402,6 +379,30 @@ Exemple : le scandale Cambridge analytica
 - La trouvaille glaçante d'un journaliste sur nos téléphones :
   https:\/\/youtu.be/UZjPHnN482M
   ]
+
+== ATELIER -- DATA BROKERS
+
+On forme des groupes de 2-3 personnes. Chaque groupe a un tableau de
+données. L'objectif est d'établir un profil le plus complet possible de
+Bernard. Ça va se faire en 2 étapes~:
+
+Étape 1~: chaque groupe extrait le plus d'infos possible sur Bernard
+grâce à son tableau.
+
+Étape 2~: les groupes s'échangent leurs informations afin d'avoir un
+profil le plus complet possible.
+
+=== Debrief
+De la même manière, un journaliste a réussi à retrouver l'adresse
+d'agents du renseignement français et du GIGN.
+
+#ressources-box[
+  - A ce sujet, video d'Underscore\_ https://www.youtube.com/watch?v=UZjPHnN482M
+  ]
+
+Les courtiers en données font la même chose avec des millions de
+personnes avec les données qu'on donne aux applications et sites web
+tous les jours. Voici les étapes:
 
 === Pour aller plus loin
 L'*identifiant publicitaire unique* est un identifiant assigné
