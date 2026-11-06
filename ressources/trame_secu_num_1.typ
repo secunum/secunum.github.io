@@ -77,26 +77,20 @@ N'hésitez pas à demander une pause si vous en ressentez le besoin
 = INTRO
 == Contenu de la formation : ce qu\'on fait et ce qu\'on fait pas, à qui ça s\'adresse
 
-Le but de la formation c'est pas d'être exhaustif sur tous les sujets
-(au contraire, on va essayer de rester plutôt en surface) Le but de la formation est de rendre les
-participant·es autonomes sur les questions de la vie privée numérique, cela passe par une compréhension des technologies et leur fonctionnement La formation est structurée pour comprendre comment fonctionne le capitalisme de surveillance, quels sont les risques, et comment y remédier (le mieux possible) \+ mise à disposition une grosse liste de ressources pour creuser les
-sujets en autonomie.
+Le but de la formation n'est pas d'être exhaustif sur tous les sujets (au contraire, on va essayer de rester plutôt en surface), mais de rendre les participant·es autonomes sur les questions de vie privée numérique, et nous pensons que cela passe par une compréhension des technologies et leur fonctionnement. La formation se veut comme une porte d'entrée vers le domaine de la vie privée et de la sécurité informatique et est orientée pour comprendre comment fonctionne le capitalisme de surveillance, quels sont les risques, et comment y remédier (le mieux possible). Par ailleurs, on vous mettra à disposition à la fin de la formation une liste de ressources pour creuser les sujets en autonomie, afin que vous puissiez passer du temps sur les sujets qui vous intéressent ou que vous trouvez les plus cruciaux, pour répondre à vos attentes et/ou besoins spécifiques.
 
-- De cette façon, les participant·es peuvent passer du temps les sujets qui les intéressent ou qu'iels trouvent les plus cruciaux
+Quelques points avant de commencer :
+- La formation à été conçue de façon à toucher un public le plus large possible, qui n'a pas forcément de connaissances techniques, donc on va volontairement faire des approximations, et ce, dans un but *pédagogique*.
 
-- Ça permet à la formation de toucher un plus large public et de répondre aux attentes et/ou besoins de chacun. La formation se veut comme une porte d'entrée vers le domaine de la sécurité informatique. On va volontairement faire des approximations, et ce, dans un but *pédagogique*.
+- \/!\\ On ne va pas/peu aborder les sujets relatifs au militantisme dans cette formation, il y a une formation dédiée pour ça (sécurité militante)
 
+- Les questions de clarification seront prioritaire sur les questions d'approfondissement
 
+- Si vos interventions sont trop techniques, on se réserve le droit de vous couper, on pourra en parler à la fin de la formation, ou autour d'un verre.
 
-- \/!\\ On va peu/pas aborder les sujets relatifs au militantisme dans cette formation, il y a une formation dédiée pour ça (sécurité militante)
-
-- les questions de clarification seront prioritaire sur les questions d'approfondissement, qui seront traitées à la fin de la formation ou autour d'un verre
-
-- si vos intervations sont rrop technniues, on se reéserve le droit de vous couper, on pourra en parler à la fin de la formation, ou autour d'un verre.
 #pt-box[
-  - faire un nuage de mots si vous le sentez
-  - donnez les mots qui vous viennent à l'esprit quand on parle de secu num.
-  
+- faire un nuage de mots si vous le sentez
+- donnez les mots qui vous viennent à l'esprit quand on parle de secu num.
 ]
 
 == Autodéfense numérique~: pourquoi c\'est important
