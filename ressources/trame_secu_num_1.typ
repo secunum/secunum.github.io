@@ -1,4 +1,5 @@
 #set heading(numbering: "I.1.a.i.")
+#set text(font: "Liberation Sans")
 
 #let ressources-box(body) = block(
   stroke: 1pt + aqua,
