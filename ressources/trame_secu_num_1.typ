@@ -71,6 +71,8 @@ Atelier d\'autodéfense numérique
 - Lever un doigt, deux, etc
 - Point technique
 - d'accord  / pas d'accord
+- chapeau pour demander le silence
+N'hésitez pas à demander une pause si vous en ressentez le besoin
 = INTRO
 == Contenu de la formation : ce qu\'on fait et ce qu\'on fait pas, à qui ça s\'adresse
 
@@ -458,6 +460,9 @@ via la plateforme publicitaire, qui sont ensuite analysées et agrégées
 pour créer son profil numérique complet : habitudes de navigation,
 applications utilisées, centres d'intérêt, déplacements…~»
 ]
+
+#text(size: 20pt, weight: "bold")[#align(center)[PAUSE]]
+
 =  Outils pratiques~: se protéger
 ==  Navigation web
 === Fingerprinting
