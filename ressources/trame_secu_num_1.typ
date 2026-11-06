@@ -860,23 +860,23 @@ On ne veut pas sortir d'un modèle centralisé pour aller vers un autre modèle 
     align: (left, left, left),
     [*Activité*], [*Utilisé*], [*Alternatives possibles*],
     
-    [**Messagerie**], 
+    [*Messagerie*], 
     [WhatsApp, Messenger, iMessage], 
     [*Signal* (le plus simple), *Olvid* (français, sans numéro de tel)],
     
-    [**E-mails**], 
+    [*E-mails*], 
     [Gmail, Outlook], 
     [*Proton Mail* (chiffré, très simple), *Tutanota* (chiffré, allemand), *Infomaniak* (suisse)],
     
-    [**Stockage / Cloud**], 
+    [*Stockage / Cloud*], 
     [Google Drive, iCloud, OneDrive], 
     [*Proton Drive*, *Nextcloud* (https://nextcloud.com/sign-up/), *Infomaniak kDrive*],
     
-    [**Cartes / GPS**], 
+    [*Cartes / GPS*], 
     [Google Maps, Apple Maps, Waze], 
     [*CoMap* ou *OsmAnd* (basés sur OpenStreetMap, fonctionnent hors-ligne sans pistage). Attention, prévenir pour les problèmes sur la recherche + commerces],
     
-    [**Bureautique**], 
+    [*Bureautique*], 
     [Microsoft Office, Google Docs], 
     [*LibreOffice*, *OnlyOffice sur Nextcloud*, *Proton Drive*, *kDrive* ]
   )]
